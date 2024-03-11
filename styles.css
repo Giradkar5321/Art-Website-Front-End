@@ -356,7 +356,7 @@ fa.gem{
      rgba(0,0,0,0) 0%,
      rgba(17,17,17,0.6) 100%
     ),
-    url('/images/pexels-татьяна-чернышова🍒-3715989.jpg');
+    url('./img/pexels-татьяна-чернышова🍒-3715989.jpg');
  background-size: cover;
  position: relative;
  color: #fff;
@@ -368,7 +368,7 @@ fa.gem{
      rgba(0,0,0,0) 0%,
      rgba(17,17,17,0.6) 100%
     ),
-    url('/images/𝘼𝙣𝙞𝙢𝙚\ 𝘼𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘𝙨\ on\ Twitter.jpg')
+    url('./img/𝘼𝙣𝙞𝙢𝙚\ 𝘼𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘𝙨\ on\ Twitter.jpg')
 }
 
 .services__card:nth-child(3) {
@@ -377,7 +377,7 @@ fa.gem{
         rgba(0,0,0,0) 0%,
         rgba(17,17,17,0.6) 100%
        ),
-       url('/images/Recent\ Portraits.jpg')
+       url('./img/Recent\ Portraits.jpg')
 }
 
 .services__card:nth-child(4) {
@@ -386,7 +386,7 @@ fa.gem{
            rgba(0,0,0,0) 0%,
            rgba(17,17,17,0.6) 100%
           ),
-          url('/images/My\ Skull_\ Front\ by\ SteveGibson\ on\ DeviantArt.jpg')
+          url('./img/My\ Skull_\ Front\ by\ SteveGibson\ on\ DeviantArt.jpg')
 }
 
 .services__card:nth-child(5) {
@@ -395,7 +395,7 @@ fa.gem{
            rgba(0,0,0,0) 0%,
            rgba(17,17,17,0.6) 100%
           ),
-          url('/images/hands\ playing\ piano\ print.jpg')
+          url('./img/hands\ playing\ piano\ print.jpg')
 }
 
 .services__card:nth-child(6) {
@@ -404,7 +404,7 @@ fa.gem{
               rgba(0,0,0,0) 0%,
               rgba(17,17,17,0.6) 100%
              ),
-             url('/images/Photo\ by\ @arelimuoz5.jpg')
+             url('./img/Photo\ by\ @arelimuoz5.jpg')
 }
 
 .services h2 {
