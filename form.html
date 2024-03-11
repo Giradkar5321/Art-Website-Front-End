@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form site</title>
+    <!--<style>
+        form{padding-top: 120px;
+            text-align: center;
+            font-size: 30px;}
+        input{width: 250px;
+            height: 40px;
+            font-size: 30px;}
+    </style>-->
+</head>
+<body>
+
+    <h2>Student Registration</h2>
+    <form action="register.php" method="POST">
+        <p>
+            <label>Username:</label>
+            <input type="text" name="user" autocomplete="OFF" required>
+        </p>
+        <label>Age:</label>
+        <input type="number" name="age" autocomplete="OFF" required>
+        <p>
+            <label>Batch number:</label>
+            <input type="number" name="batch" required>
+        </p>
+        <div class="reg">
+            <input type="submit" name="register" value="Register">
+        </div>
+    </form>
+    <!--<form method="post" action="connect.php">
+        Username : <input type="text" name="username"><br><br>
+        Password : <input type="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+    </form>-->
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+.navbar{
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo{
+  background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%,#ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/*fa.gem{
+    margin-right: 0.5rem;
+}*/
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item{
+    height: 80px;
+}
+
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    /*background: #f77062;*/
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    color: #fff;
+}
+
+.button:hover{
+    background: #ff0844;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover{
+    color: #708090;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #5a5959 0%, #000000 74%);
+    height: 150vh;
+}
+
+.badge-notify {
+    background: red;
+    position: relative;
+    top: -50px;
+    right: 40px;
+    font-family: sans-serif;
+}
+
+#addNewProduct {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.btn-info {
+    /*background: #34495e;*/
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.row {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.btn-danger {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
