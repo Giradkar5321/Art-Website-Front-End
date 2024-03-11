@@ -360,6 +360,7 @@ fa.gem{
  background-size: cover;
  position: relative;
  color: #fff;
+ transition: 0.3s ease-in;
 }
 
 .services__card:nth-child(2) {
